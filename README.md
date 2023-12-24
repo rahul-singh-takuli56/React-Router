@@ -1,8 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## REACT ROUTER
+- It is the libary of React which is used to navigate from one components to another without trigerring full page reload.
+- The `<Outlet />` component serves as a placeholder for child routes, allowing the rendering of nested route components within their parent components. If you choose not to use `<Outlet />`, nested routes won't be rendered automatically in the parent component.
+- `<Outlet />`: The `<Outlet />`  component is used in conjunction with the `<Route />`  component to define where child routes should be rendered. It acts as a placeholder for child route components. It is typically used in the layout or parent component that contains nested routes.
+- `<Link />`: The `<Link />` component is used to create hyperlinks for navigation between different routes in a React application. It prevents the default behavior of an anchor (`<a>`) tag and uses the client-side routing provided by React Router.
+- `<NavLink />`: The `<NavLink />`  component is similar to `<Link />` , but it provides additional styling capabilities for the active link. It adds a CSS class (active by default) to the link when the associated route is active.

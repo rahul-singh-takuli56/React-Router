@@ -9,7 +9,8 @@ function Layout() {
         <>
             <Header />
             {/* with the help of outelet header and footer will always be avaible on every page */}
-            <Outlet/> 
+            {/* Child routes will be rendered here */}
+            <Outlet />
             <Footer />
         </>
     )

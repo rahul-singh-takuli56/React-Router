@@ -10,7 +10,6 @@ import Github, { githubInfoLoader } from './Components/Github/Github.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 
 
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
